@@ -78,7 +78,7 @@ const messageDiv = document.getElementById(uniqueId);
 loader(messageDiv);
  //fetch the data from server -> bots response
 
- const response = await fetch('http://localhost:5000', {
+ const response = await fetch('https://treatmentai.onrender.com', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
