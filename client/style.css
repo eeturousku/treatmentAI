@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap");
 
+/*testailu alkaa */
+
+.submission-form{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+}
+
+label{
+  display: block;
+}
+
+
+
+/* testailu loppuu */
+
+
 * {
   margin: 0;
   padding: 0;
