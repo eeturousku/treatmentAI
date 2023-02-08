@@ -84,7 +84,7 @@ loader(messageDiv);
     'Content-Type': 'application/json'
   },
   body: JSON.stringify({
-    prompt: data.get('prompt') + ` ` + data.get('tieto1')
+    prompt: data.get('prompt')
   })
 })
 
